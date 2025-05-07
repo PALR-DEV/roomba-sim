@@ -39,6 +39,7 @@ I'm currently exploring the fundamentals of robotics, focusing on sensor-based n
 ## 📸 Project Images
 
 ![Robot in Simulation](./worlds/robot.jpg)
+
 *E-puck robot navigating in Webots simulation environment*
 ---
 ## 🎥 Video Demo
