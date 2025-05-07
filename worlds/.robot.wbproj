@@ -8,4 +8,4 @@ orthographicViewHeight: 1
 textFiles: 0 "controllers/avoid_controller/avoid_controller.py"
 globalOptionalRendering: DistanceSensorRays
 consoles: Console:All:All
-renderingDevicePerspectives: e-puck:camera;1;3.38462;0;0
+renderingDevicePerspectives: e-puck:camera;0;3.38462;0;0
