@@ -42,7 +42,7 @@ I'm currently exploring the fundamentals of robotics, focusing on sensor-based n
 *E-puck robot navigating in Webots simulation environment*
 ---
 ## 🎥 Video Demo
-![Robot Vide]("")
+
 [![Watch the video](https://img.youtube.com/vi/rOu3aFaEtk0/maxresdefault.jpg)](https://youtu.be/rOu3aFaEtk0)
 *IR sensor placement and detection zones*
 
