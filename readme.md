@@ -41,12 +41,10 @@ I'm currently exploring the fundamentals of robotics, focusing on sensor-based n
 ![Robot in Simulation](./worlds/robot.jpg)
 *E-puck robot navigating in Webots simulation environment*
 ---
-
 ## 🎥 Video Demo
-## Watch the robot in action in the Webots simulation environment:
-<video width="640" height="480" controls>
-  <source src="./robot.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Robot Vide]("")
+[![Watch the video](https://img.youtube.com/vi/rOu3aFaEtk0/maxresdefault.jpg)](https://youtu.be/rOu3aFaEtk0)
+*IR sensor placement and detection zones*
 
 ---
+
