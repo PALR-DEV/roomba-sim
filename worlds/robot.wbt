@@ -1,0 +1,74 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "../protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.031062468275275996 0.9976969281232482 -0.06029894425345971 0.9532526877230264
+  position -1.8123936144629116 -0.3696115650664816 2.1091206338213833
+  follow "e-puck"
+  followType "Pan and Tilt Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.09 0 0
+  floorTileSize 0.25 0.25
+}
+E-puck {
+  hidden position_0_0 385.259390458621
+  hidden position_0_1 434.3792667915985
+  hidden linearVelocity_0 0.039685179331394996 -5.488205601799901e-09 1.568676523355229e-08
+  hidden angularVelocity_0 -5.486303775852836e-07 -4.7137731884347106e-07 -5.767857527388899e-07
+  hidden translation_1 0 0.025999999999999992 0.02
+  hidden rotation_1 0 -1 0 3.477846489849832
+  hidden linearVelocity_1 0.039685191935476455 -4.642848733571076e-09 2.999866865437279e-09
+  hidden angularVelocity_1 0.2504241653031442 1.9842570982501686 -0.0030472176020653638
+  hidden translation_2 0 -0.02600000000000001 0.02
+  hidden rotation_2 0 0.9999999999999999 0 1.0146253840273889
+  hidden linearVelocity_2 0.03968516202343519 -8.397562164712053e-10 2.774360100854957e-08
+  hidden angularVelocity_2 0.25042411829812783 1.9842571028473692 -0.0030473129512182027
+  translation -0.31138348564154283 -0.46316766901852136 -5.8254237542553974e-05
+  rotation 0.012800041902636844 0.010110300133107993 0.9998669615296375 -0.1255576385079511
+  controller "avoid_controller"
+  camera_fieldOfView 0.78
+}
+WoodenBox {
+  translation 0.22 -1.0203316537587521e-16 0.049607599999999995
+  rotation 0.015559975036520061 -0.03556565722632092 0.9992462014953687 9.5896024357048e-16
+  name "box1"
+  size 0.1 0.1 0.1
+  mass 1
+  locked TRUE
+}
+WoodenBox {
+  translation -0.33999609701877553 -0.18998858471390853 0.04960758857951474
+  rotation -0.9103925767908446 0.29225955253120256 -0.29286466170978614 0.0002727750790655352
+  name "box2"
+  size 0.1 0.1 0.1
+  mass 1
+  locked TRUE
+}
+WoodenBox {
+  translation -0.13 0.24 0.0496076
+  rotation 0.2816725909190353 -0.26000546854087225 -0.9236112319876796 1.9676154221612642e-16
+  name "box3"
+  size 0.1 0.1 0.1
+  mass 1
+  locked TRUE
+}
+WoodenBox {
+  translation -0.09 -0.08 0.049607600000000016
+  rotation -0.0036897135733296505 0.04427656288043587 0.9990124984169326 1.1554437301938178e-15
+  name "box4"
+  size 0.1 0.1 0.1
+  mass 1
+  locked TRUE
+}
